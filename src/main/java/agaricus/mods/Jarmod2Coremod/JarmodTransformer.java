@@ -1,7 +1,7 @@
 package agaricus.mods.Jarmod2Coremod;
 
 import cpw.mods.fml.common.FMLLog;
-import cpw.mods.fml.relauncher.IClassTransformer;
+import net.minecraft.launchwrapper.IClassTransformer;
 
 import java.util.HashMap;
 import java.util.Map;

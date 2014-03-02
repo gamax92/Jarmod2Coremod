@@ -1,7 +1,7 @@
 package agaricus.mods.Jarmod2Coremod;
 
 import cpw.mods.fml.common.FMLLog;
-import cpw.mods.fml.relauncher.FMLRelauncher;
+import cpw.mods.fml.relauncher.FMLLaunchHandler;
 import cpw.mods.fml.relauncher.IFMLCallHook;
 
 import java.io.DataInputStream;
@@ -43,7 +43,7 @@ public class Scanner implements IFMLCallHook {
         }
 
         String sep = System.getProperty("file.separator");
-        String side = FMLRelauncher.side();
+        String side = FMLLaunchHandler.side().name();
         jarmodsDir = new File(root.getCanonicalPath() + sep + "jarmods" + sep + side);
         jarmodsDir.mkdirs();
 

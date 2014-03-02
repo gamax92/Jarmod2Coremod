@@ -18,7 +18,7 @@ Compilation:
 
 Downloads:
 
-Latest release: https://bitbucket.org/agaricusb/jarmod2coremod/downloads/AAA-Jarmod2Coremod-1.0.jar
+Latest release: https://dl.dropboxusercontent.com/u/93572794/Ports/AAA-Jarmod2Coremod-1.0-MC1.6.4.jar
 
 Development builds available at Buildhive: [![Build Status](https://buildhive.cloudbees.com/job/agaricusb/job/Jarmod2Coremod/badge/icon)](https://buildhive.cloudbees.com/job/agaricusb/job/Jarmod2Coremod/)
 
